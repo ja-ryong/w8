@@ -1,0 +1,147 @@
+.w1{
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+}
+
+.w2{
+	position: absolute;
+	bottom: 10%;
+	left: 35%;
+}
+
+.w3{
+	position: absolute;
+	top: 30%;
+	right: 23%;
+}
+
+.w4{
+	position: absolute;
+	top: 35%;
+	right: 23%;
+}
+
+.p{
+	color: #D6BB6C;
+	font-family: omnes-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	opacity: 0.7;
+}
+
+.lala{
+	position: absolute;
+	top: calc(50% - 850px / 2);
+	left: calc(50% - 88vw / 2) ;
+	animation-name: lala;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+.lala2{
+	position: absolute;
+	top: calc(50% - 850px / 2);
+	left: calc(50% - 88vw / 2) ;
+	animation-name: lala;
+	animation-duration: 6s;
+	z-index: 10px;
+	animation-iteration-count: infinite;
+}
+
+.st3{
+	fill:none;
+	stroke:#FE2EF7;
+	stroke-width:8;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+}
+
+.st3-2{
+	fill:none;
+	stroke:#FE2EF7;
+	stroke-width:8;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+}
+
+.st4{
+	fill:#F4FA58;
+}
+
+.st5{
+	fill:none;
+	stroke:#FE2EF7;
+	stroke-width:15;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:8;
+}
+
+@keyframes lala{
+	0%{
+		opacity: 1;
+	}
+	0.4%{
+		opacity: 0.2;
+	}
+	0.6%{
+		opacity: 0.2;
+	}
+	1%{
+		opacity: 1;
+	}
+	30%{
+		opacity: 1;
+	}
+	30.4%{
+		opacity: 0.2;
+	}
+	30.6%{
+		opacity: 0.2;
+	}
+	31%{
+		opacity: 1;
+	}
+	32%{
+		opacity: 1;
+	}
+	32.4%{
+		opacity: 0.2;
+	}
+	32.6%{
+		opacity: 0.2;
+	}
+	33%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 1;
+	}
+	60.4%{
+		opacity: 0.2;
+	}
+	60.6%{
+		opacity: 0.2;
+	}
+	61%{
+		opacity: 1;
+	}
+	94%{
+		opacity: 1;
+	}
+	94.4%{
+		opacity: 0.2;
+	}
+	94.6%{
+		opacity: 0.2;
+	}
+	95%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+}
